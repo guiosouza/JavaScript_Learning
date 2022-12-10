@@ -28,7 +28,7 @@ console.log(`const y = "Maria"`);
 console.log(`const a = new String("Maria")`);
 console.log(`const b = new String("Maria"`);
 console.log(`x === y: ${x === y}`);
-console.log(`a === b: ${a === b}`);
+console.log(`a === b: ${a === b}`); // Deu false, porque são objetos diferentes, embora tenha o mesmo conteúdo
 console.log(`typeof x: ${typeof x}`);
 console.log(`typeof a: ${typeof a}`);
 
